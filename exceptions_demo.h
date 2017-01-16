@@ -9,12 +9,12 @@ namespace DemoExceptions
         {
             try
             {
-                throw toThrow
+                throw toThrow;
             }
             catch (int& i)
             {
-                std::cout<<"Caught integer <<"i<<std::endl;
+                std::cout<<"Caught integer "<<i<<std::endl;
             }
         }
-    }
+    };
 }

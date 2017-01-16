@@ -1,5 +1,5 @@
 #include <iostream>
-#include "exceptions_demo"
+#include "exceptions_demo.h"
 
 int main(int argc, char* argv[])
 {
